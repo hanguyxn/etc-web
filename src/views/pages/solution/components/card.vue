@@ -78,7 +78,7 @@ const props = defineProps({
 const handleClick = () => {
   router.push({
     name: 'solution-detail',
-    params: {id: 1}
+    params: {id: props.solutionId}
   })
 }
 </script>

@@ -24,6 +24,7 @@
             :src="image"
             :alt="imageAlt"
             class="h-full w-auto object-contain top-0 lg:absolute lg:top-0 lg:right-0 max-h-[400px] lg:max-h-full"
+            :class="route.name === 'solution-detail' ? 'lg:-right-[400px]' : ''"
             loading="eager"
             fetchpriority="high"
             decoding="async"
@@ -34,6 +35,11 @@
 </template>
 
 <script setup>
+import {useRoute, useRouter} from 'vue-router'
+
+const router = useRouter()
+const route = useRoute()
+
 
 const props = defineProps({
   title: {

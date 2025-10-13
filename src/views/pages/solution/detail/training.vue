@@ -6,7 +6,7 @@
       cách 42 North Dental tinh giản đào tạo.</h4>
   </section>
 </template>
-<script setup lang="ts">
+<script setup>
 import RoiIcon from '@/assets/images/roi.svg'
 </script>
 

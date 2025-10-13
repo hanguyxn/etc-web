@@ -1,0 +1,220 @@
+{
+  "onboarding": [
+    {
+      "icon": "clock",
+      "title": "Speeds up new hire productivity",
+      "description": "New hires go from overwhelmed to confident faster. Targeted onboarding and personalized AI coaching help them get to grips with their new role and perform confidently."
+    },
+    {
+      "icon": "monitor",
+      "title": "Automates admin busywork",
+      "description": "Assignments, completion tracking, and reminders run automatically. Free up hours to build relationships instead of managing training logistics."
+    },
+    {
+      "icon": "calendar",
+      "title": "Eliminates compliance gaps",
+      "description": "Every new hire completes required training before they can slip through the cracks. No more wondering if someone missed harassment training or safety protocols."
+    },
+    {
+      "icon": "document",
+      "title": "Standardizes essential training",
+      "description": "Essentials like compliance or company culture are delivered identically. Whether you're training five or five thousand, core knowledge stops being a lottery based on who's doing the onboarding."
+    },
+    {
+      "icon": "dollar",
+      "title": "Shows ROI that convinces executives",
+      "description": "Get onboarding running quickly and show measurable results fast. Leadership sees clear training value in 11 months instead of waiting years for returns."
+    },
+    {
+      "icon": "retention",
+      "title": "Onboards for long-term retention",
+      "description": "Don't lose the 39% of employees who regret joining during poor onboarding. Quality training creates confidence for everyone from day one."
+    }
+  ],
+  "compliance": [
+    {
+      "icon": "clock",
+      "title": "Reduces the risk of non-compliance",
+      "description": "Minimize the risk of costly penalties and legal issues through comprehensive training. Protect your organization from violations that can damage both finances and reputation."
+    },
+    {
+      "icon": "monitor",
+      "title": "Always audit-ready",
+      "description": "Face audits with complete confidence. Instant access to all compliance records and documentation means you're always prepared."
+    },
+    {
+      "icon": "calendar",
+      "title": "Sets compliance on autopilot",
+      "description": "Reduce the stress of missed deadlines and free yourself from calendar watching. With automations, every employee gets assigned and completes mandatory training on time."
+    }
+  ],
+  "sales": [
+    {
+      "icon": "dollar",
+      "title": "Maximizes ROI on new sales hires",
+      "description": "Stop losing revenue while new reps learn the ropes. Structured training gets them closing deals faster, so they hit quota in their first quarter instead of their third."
+    },
+    {
+      "icon": "chart",
+      "title": "Increases win rates and deal sizes",
+      "description": "Turn average performers into top performers. Data-driven coaching and role-playing scenarios help reps master objection handling and upselling techniques that directly impact your bottom line."
+    },
+    {
+      "icon": "calendar-check",
+      "title": "Adapts to busy schedules",
+      "description": "Your reps are on the road, in meetings, and closing deals. Mobile-friendly training fits into their real work schedule instead of pulling them away from revenue-generating activities."
+    }
+  ],
+  "customer": [
+    {
+      "icon": "clock",
+      "title": "Prevents customer churn early",
+      "description": "Spot struggling customers before they leave. Train your team to recognize warning signs and take action that keeps revenue growing instead of leaking."
+    },
+    {
+      "icon": "money-bag",
+      "title": "Turns trial users into paying customers",
+      "description": "Help customers see value faster. Effective onboarding training transforms your team into conversion experts who guide users from curious to committed."
+    },
+    {
+      "icon": "chart-up",
+      "title": "Connects training to business results",
+      "description": "See exactly how training impacts customer success metrics. Track improvements in retention, expansion revenue, and customer satisfaction as your team develops new skills."
+    }
+  ],
+  "partners": [
+    {
+      "icon": "hand-money",
+      "title": "Gets partners selling immediately",
+      "description": "Stop waiting months for partners to generate revenue. Structured certification programs get them up to speed in weeks instead of quarters."
+    },
+    {
+      "icon": "document-like",
+      "title": "Reduces partner support tickets",
+      "description": "Well-trained partners solve their own problems. Cut your support costs while partners stay focused on selling instead of asking basic questions."
+    },
+    {
+      "icon": "lock",
+      "title": "Safeguards your brand",
+      "description": "Control how partners represent your company. Mandatory training on messaging, compliance, and best practices protects your reputation in the market."
+    },
+    {
+      "icon": "star-chart",
+      "title": "Becomes partners' top priority",
+      "description": "Partners sell what they know best. Easy-to-complete training makes them confident experts who actively promote your solution over competitors."
+    },
+    {
+      "icon": "dollar-refresh",
+      "title": "Drives market expansion",
+      "description": "Scale revenue without scaling headcount. A trained partner network reaches customers you'd never reach with direct sales alone."
+    },
+    {
+      "icon": "user-heart",
+      "title": "Creates brand champions",
+      "description": "Transform partners into genuine advocates. Great training experiences build loyalty that goes beyond contract terms."
+    }
+  ],
+  "remote-worker": [
+    {
+      "icon": "users-group",
+      "title": "Keeps remote teams engaged",
+      "description": "Combat isolation and disconnection. Interactive training builds team bonds and keeps distributed employees connected to company culture."
+    },
+    {
+      "icon": "monitor-ai",
+      "title": "Offers flexible learning",
+      "description": "Stop forcing everyone into the same training schedule. Asynchronous options respect different time zones and work styles while maintaining consistent quality."
+    },
+    {
+      "icon": "rocket",
+      "title": "Boosts productivity, cuts admin burden",
+      "description": "Eliminate the coordination nightmare of scheduling across time zones. Self-paced training removes scheduling conflicts while automated tracking removes manual busywork."
+    }
+  ],
+  "extend-enterprise": [
+    {
+      "icon": "book-chart",
+      "title": "Scales training without scaling resources",
+      "description": "Train thousands of external users without overwhelming your team. Automated delivery and tracking handle volume while you focus on strategy."
+    },
+    {
+      "icon": "network",
+      "title": "Maintains brand consistency across your network",
+      "description": "Ensure every franchisee, reseller, and contractor represents your brand correctly. Standardized training eliminates the telephone game of secondhand knowledge."
+    },
+    {
+      "icon": "globe-monitor",
+      "title": "Manages global compliance and reporting",
+      "description": "Track training completion across countries and regulations. One platform handles multi-language content and generates audit reports for any jurisdiction."
+    }
+  ],
+  "customer-support": [
+    {
+      "icon": "clock-fast",
+      "title": "Speeds up resolution times",
+      "description": "Keep your reps fully informed on any new updates so they can handle client questions quickly and accurately."
+    },
+    {
+      "icon": "rocket-satisfaction",
+      "title": "Increases customer satisfaction",
+      "description": "Exceed your customers' expectations with support reps who offer accurate, personalized solutions. Help your reps stay confident and professional in every conversation."
+    },
+    {
+      "icon": "chart-down",
+      "title": "Reduces costs and eases the support load",
+      "description": "Well-trained reps handle more issues independently, reducing the need for additional support staff. Fewer escalations and faster resolutions mean lower operational costs and less burnout for your team."
+    }
+  ],
+  "cyber-security": [
+    {
+      "icon": "shield-check",
+      "title": "Prevents costly security breaches",
+      "description": "Equip employees with the tools to avoid online threats. Reduce human error incidents that cost companies millions in breach recovery and lost business."
+    },
+    {
+      "icon": "network-tree",
+      "title": "Reduces IT support burden",
+      "description": "Trained employees handle basic security tasks independently, freeing your IT team for strategic projects instead of constant firefighting."
+    },
+    {
+      "icon": "rocket-boost",
+      "title": "Boosts reputation and credibility",
+      "description": "Show customers and partners you take security seriously. Well-trained teams demonstrate your commitment to protecting sensitive data and maintaining trust."
+    }
+  ],
+  "workplace-harassment": [
+    {
+      "icon": "shield-legal",
+      "title": "Reduces legal risk",
+      "description": "Meet regulatory requirements and protect your organization from fines with certified workplace harassment training for all employees."
+    },
+    {
+      "icon": "monitor-settings",
+      "title": "Cuts down on HR admin",
+      "description": "Automate training assignments, track completion, and manage recertification cycles. Stop chasing employees with spreadsheets and focus on strategic HR work."
+    },
+    {
+      "icon": "hand-heart",
+      "title": "Builds a culture of trust",
+      "description": "Help employees recognize, prevent, and respond to harassment. Create a workplace where everyone feels safe, valued, and protected."
+    }
+  ],
+  "marketing": [
+    {
+      "icon": "chart-trend",
+      "title": "Keeps teams ahead of trends",
+      "description": "Stop falling behind on new platforms, tools, and strategies. Training that adapts to the fast-changing marketing landscape keeps your team ahead of competitors."
+    },
+    {
+      "icon": "money-convert",
+      "title": "Converts more leads",
+      "description": "Improve your ROI and achieve stronger campaign results with a skilled, top-performing team."
+    },
+    {
+      "icon": "document-strategy",
+      "title": "Builds a unified marketing strategy",
+      "description": "Align your entire team on brand guidelines, messaging, and latest marketing tactics. Standardized training ensures campaigns work together, not against each other."
+    }
+  ]
+}
+

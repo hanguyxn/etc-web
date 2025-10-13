@@ -16,9 +16,14 @@
 <script setup>
 import HeroSection from '@/views/pages/solution/components/HeroSection.vue'
 
+const scrollToBottom = () => {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+  })
+}
 const handleRegister = () => {
-  console.log('Đăng ký clicked')
-  // Thêm logic đăng ký ở đây
+  scrollToBottom()
 }
 </script>
 
