@@ -1,9 +1,11 @@
 <template>
-  <HeroSection/>
-  <SliderSection/>
-  <TailoredSection/>
-  <FeaturesSection/>
-  <GetLmsSection/>
+  <div class="bg-white">
+    <HeroSection/>
+    <SliderSection/>
+    <TailoredSection/>
+    <FeaturesSection/>
+    <GetLmsSection/>
+  </div>
 </template>
 
 <script setup>

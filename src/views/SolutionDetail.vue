@@ -1,5 +1,5 @@
 <template>
-  <section class="space-y-10">
+  <section class="space-y-10 bg-white">
     <HeroSection
         :title="solutionsData[route.params.id].banner?.title || 'Giải pháp đào tạo toàn diện'"
         :description="solutionsData[route.params.id].banner?.description"
