@@ -25,7 +25,8 @@
 <script setup>
 import {ref} from 'vue'
 import CardCard from '@/views/pages/solution/components/card.vue'
-
+import userDashboardImage from '@/assets/images/adminview.png'
+import dashboardImage from '@/assets/images/dashboard_cms.png'
 const solutions = ref([
   {
     "id": 1,
@@ -67,7 +68,7 @@ const solutions = ref([
     "id": 5,
     "category": "external-more",
     "title": "Customer Training Software",
-    "image": "https://www.talentlms.com/wp-content/uploads/2025/07/customer-training-solutions-thumb-image.webp",
+    "image": userDashboardImage,
     "heading": "Đào tạo khách hàng",
     "description": "Một khách hàng được trang bị kiến thức là một khách hàng hài lòng hơn. Khám phá cách TalentLMS giúp bạn tạo và quản lý một chương trình đào tạo khách hàng thú vị.",
     "buttonText": "Tìm hiểu thêm"
@@ -76,7 +77,7 @@ const solutions = ref([
     "id": 6,
     "category": "external-more",
     "title": "Partner Training LMS Software",
-    "image": "https://www.talentlms.com/wp-content/uploads/2025/07/channel-partner-training-solutions-thumb-image.webp",
+    "image": dashboardImage,
     "heading": "Đào tạo đối tác",
     "description": "Phát triển doanh nghiệp của bạn từ bên ngoài bằng cách trao quyền cho các đối tác. Khám phá cách TalentLMS giúp bạn cung cấp chương trình đào tạo đối tác liền mạch.",
     "buttonText": "Tìm hiểu thêm"

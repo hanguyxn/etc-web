@@ -1,21 +1,19 @@
 <template>
   <div class="w-full flex justify-center items-center flex-col gap-6 py-10 px-4 text-center max-w-4xl mx-auto">
-    <img :src="TechSpeedIcon" alt="" srcset="" height="70" width="70">
+    <img :src="TechSpeedIcon" alt="" srcset="" height="70" width="70" />
     <h1 class="font-bold text-[42px]">Đội ngũ mạnh hơn. Giảm căng thẳng về công nghệ. Kết quả thực tế.</h1>
-    <h4 class="text-[21px] opacity-90">Phần mềm đào tạo nhân viên giúp xây dựng kỹ năng, sự tự tin và xây dựng đội ngũ
-      làm việc
-      hạnh phúc hơn.</h4>
+    <h4 class="text-[21px] opacity-90">Phần mềm đào tạo nhân viên giúp xây dựng kỹ năng, sự tự tin và xây dựng đội ngũ làm việc hạnh phúc hơn.</h4>
   </div>
 
   <!-- Pricing Value Proposition Section -->
   <div class="max-w-[1340px] mx-auto px-4 text-center">
     <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-8">
       <div
-          v-for="feature in features"
-          :key="feature.id"
-          class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+        v-for="feature in features"
+        :key="feature.id"
+        class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
       >
-        <div class="mb-4 text-blue-600" v-html="feature.icon"/>
+        <div class="mb-4 text-blue-600" v-html="feature.icon" />
         <h3 class="text-lg font-semibold mb-2">{{ feature.title }}</h3>
         <p class="text-gray-600">{{ feature.description }}</p>
       </div>
@@ -23,7 +21,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import TechSpeedIcon from '@/assets/images/tech-speed.svg'
+import TechSpeedIcon from "@/assets/images/tech-speed.svg";
 
 const features = [
   {
@@ -33,9 +31,8 @@ const features = [
 <path d="M20.1968 11.8909C18.9268 11.1009 17.2368 11.2609 16.1368 12.3609C15.0368 13.4609 14.8768 15.1409 15.6568 16.4009" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M12.6665 18.741H6.3265C4.5865 18.741 3.1665 17.331 3.1665 15.581V7.16098C3.1665 5.41098 4.5765 4.00098 6.3265 4.00098H18.9565C20.6965 4.00098 22.1165 5.41098 22.1165 7.16098V8.90098" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>`,
-    title: "Dễ sử dụng (dù có chuyên môn hay không)",
-    description:
-        "Đừng loay hoay với những nền tảng đào tạo quá phức tạp mà không mang lại hiệu quả. Hãy sử dụng giao diện trực quan, thân thiện với người dùng, giúp bạn và nhóm của bạn dễ dàng tiếp cận chương trình đào tạo.",
+    title: "Triển khai nhanh & dễ tiếp cận",
+    description: "Giúp nhân sự mới nhanh chóng tiếp cận thông tin cần thiết ngay từ ngày đầu tiên. Nội dung được chuẩn hóa, dễ hiểu, giúp họ không bị “quá tải” khi bắt đầu.",
   },
   {
     id: 2,
@@ -46,9 +43,8 @@ const features = [
 <path d="M9 20.5001H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
 <path d="M19.16 3.00012H4.84C3.27151 3.00012 2 4.27163 2 5.84012V14.6601C2 16.2286 3.27151 17.5001 4.84 17.5001H19.16C20.7285 17.5001 22 16.2286 22 14.6601V5.84012C22 4.27163 20.7285 3.00012 19.16 3.00012Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
 </svg>`,
-    title: "Xây dựng các kỹ năng cụ thể cho từng vai trò",
-    description:
-        "Đào tạo nhân viên phải giúp họ phát triển, chứ không chỉ dừng lại ở việc đáp ứng các tiêu chuẩn. Hãy tham gia, nâng cao kỹ năng và tuân thủ các chương trình đào tạo phù hợp với vai trò, lịch trình bận rộn và nhu cầu hiện tại cũng như tương lai của họ.",
+    title: "Chuẩn hóa trải nghiệm nhân sự mới",
+    description: "Đảm bảo mọi nhân viên đều có cùng một hành trình hội nhập rõ ràng, nhất quán — từ hiểu công ty, quy trình đến vai trò công việc.",
   },
   {
     id: 3,
@@ -58,9 +54,8 @@ const features = [
 <path d="M16.0901 6.66C16.0901 8.96 14.2501 10.72 11.9801 10.72C9.71012 10.72 7.87012 8.95 7.87012 6.66C7.87012 4.37 9.71012 2.5 11.9801 2.5C14.2501 2.5 16.0901 4.36 16.0901 6.66Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M15.5002 14.02H8.58022C6.94023 14.02 5.37023 14.67 4.21023 15.83L3.37023 16.67C2.39023 17.65 2.21023 19.19 2.94023 20.37L3.38023 21.08C3.93023 21.96 4.89023 22.5 5.93023 22.5H11.4902" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>`,
-    title: "Phát triển & giữ chân nhân viên",
-    description:
-        "Từ việc tuyển dụng đến nâng cao kỹ năng, hãy đầu tư vào sự phát triển của đội ngũ. Hãy trao cho họ những công cụ để phát triển, và họ sẽ chọn phát triển cùng bạn.",
+    title: "Rút ngắn thời gian làm quen",
+    description: "Giúp nhân sự nhanh chóng hiểu việc, giảm phụ thuộc vào quản lý và đồng nghiệp, từ đó sớm tham gia vào công việc thực tế.",
   },
   {
     id: 4,
@@ -75,9 +70,8 @@ const features = [
 <path d="M12 22.001C12.6904 22.001 13.25 21.4413 13.25 20.751C13.25 20.0606 12.6904 19.501 12 19.501C11.3096 19.501 10.75 20.0606 10.75 20.751C10.75 21.4413 11.3096 22.001 12 22.001Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M18.75 22.001C19.4404 22.001 20 21.4413 20 20.751C20 20.0606 19.4404 19.501 18.75 19.501C18.0596 19.501 17.5 20.0606 17.5 20.751C17.5 21.4413 18.0596 22.001 18.75 22.001Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>`,
-    title: "Theo dõi dữ liệu thời gian thực cho mọi học viên",
-    description:
-        "Đưa ra quyết định kịp thời, tự tin mà không cần bảng tính rườm rà. Sử dụng bảng thông tin để có ảnh chụp nhanh và báo cáo tùy chỉnh để phân tích sâu hơn. Lên lịch để chúng đến đúng lúc bạn cần nhất.",
+    title: "Theo dõi tiến độ hội nhập",
+    description: "Quản lý có thể biết chính xác nhân sự đã hoàn thành những gì, còn thiếu gì để hỗ trợ kịp thời.",
   },
   {
     id: 5,
@@ -87,9 +81,8 @@ const features = [
 <path d="M21.3333 5.68774C21.9433 6.20749 22.3333 6.98711 22.3333 7.84669V16.6624C22.3333 18.2316 21.0633 19.501 19.4933 19.501H5.17325C3.60325 19.501 2.33325 18.2316 2.33325 16.6624V7.84669C2.33325 6.97711 2.72325 6.20749 3.33325 5.68774" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
 <path d="M9.33325 22.0001H15.3333" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
 </svg>`,
-    title: "Giải phóng thời gian của bạn",
-    description:
-        "Tự động hóa sẽ đảm nhiệm công việc quản trị—chẳng hạn như phân công khóa học, gửi lời nhắc và theo dõi tiến độ—để bạn không phải làm những việc này. Bằng cách này, bạn tập trung vào nhân viên của mình. Không tốn thời gian vào các quy trình thủ công.",
+    title: "Tự động hóa onboarding",
+    description: "Tự động phân bổ nội dung, nhắc nhở và theo dõi tiến trình, giúp giảm tải cho HR và quản lý.",
   },
   {
     id: 6,
@@ -109,13 +102,10 @@ const features = [
 <path d="M7 19.8407C7.1 19.8407 7.27 19.8607 7.48 19.9107C7.79 19.9907 8 20.1207 8.1 20.1807C8.48 20.4107 9.34 20.9007 10.5 21.5807C10.63 21.6607 10.78 21.7407 10.95 21.8107C11.44 22.0007 11.89 22.0207 12.19 22.0007C12.46 21.9807 12.78 21.9507 13.13 21.8607C13.68 21.7207 14.07 21.5207 14.23 21.4407C14.93 21.0907 15.66 20.8307 16.36 20.4907C17.13 20.1107 18.41 19.5207 20.6 18.5707C20.98 18.2707 21.12 17.7607 20.94 17.3407C20.74 16.8707 20.21 16.6107 19.69 16.7507C18.3 17.2707 17.12 17.7407 15.79 18.2407C15.32 18.4207 13.25 19.0507 11.36 18.3907" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M5.57 13.3213H4.03C3.46115 13.3213 3 13.7824 3 14.3513V20.2713C3 20.8401 3.46115 21.3013 4.03 21.3013H5.57C6.13885 21.3013 6.6 20.8401 6.6 20.2713V14.3513C6.6 13.7824 6.13885 13.3213 5.57 13.3213Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>`,
-    title: "Cắt giảm chi phí, không phải góc cạnh",
-    description:
-        "Đào tạo không nên tốn kém quá nhiều. Đó là lý do tại sao chúng tôi tạo điều kiện tiếp cận đào tạo dễ dàng bằng mọi cách. Với mức giá hợp lý và các tính năng mạnh mẽ, bạn sẽ nhận được nhiều giá trị hơn với chi phí thấp hơn và đạt được ROI nhanh hơn gấp 2 lần.",
+    title: "Tạo ấn tượng ban đầu tích cực",
+    description: "Một trải nghiệm hội nhập tốt giúp nhân sự cảm thấy được hỗ trợ và gắn kết ngay từ đầu.",
   },
 ];
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

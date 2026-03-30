@@ -26,18 +26,3 @@ const handleRegister = () => {
   scrollToBottom()
 }
 </script>
-
-<style scoped lang="css">
-.etc-background::after {
-  content: "";
-  z-index: 2;
-  background-color: #fff;
-  border-radius: 100%;
-  width: 140%;
-  height: 160px;
-  display: block;
-  position: absolute;
-  bottom: -130px;
-  left: -20%;
-}
-</style>
