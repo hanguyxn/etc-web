@@ -33,6 +33,7 @@ import Training from "@/views/pages/solution/detail/training.vue";
 import GetLms from "@/views/pages/solution/sections/GetLms.vue";
 import userDashboardImage from "@/assets/images/adminview.png";
 import dashboardImage from "@/assets/images/dashboard_cms.png";
+import employee1 from "@/assets/images/employee1.png";
 const route = useRoute();
 const router = useRouter();
 const solution = ref(null);
@@ -130,7 +131,7 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Đội ngũ mạnh hơn. Giảm căng thẳng về công nghệ. Kết quả thực tế.",
+      title: "Số hóa và tự động hóa toàn bộ hoạt động đào tạo.",
       features: [
         {
           title: "Tự động hóa hành trình onboarding",

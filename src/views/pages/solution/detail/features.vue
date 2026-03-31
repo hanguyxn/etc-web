@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-center items-center flex-col gap-6 py-10 px-4 text-center max-w-4xl mx-auto">
     <img :src="TechSpeedIcon" alt="" srcset="" height="70" width="70" />
-    <h1 class="font-bold text-[42px]">Đội ngũ mạnh hơn. Giảm căng thẳng về công nghệ. Kết quả thực tế.</h1>
+    <h1 class="font-bold text-[42px]">Phát triển đội ngũ mạnh hơn, làm việc hiệu quả hơn.</h1>
     <h4 class="text-[21px] opacity-90">Phần mềm đào tạo nhân viên giúp xây dựng kỹ năng, sự tự tin và xây dựng đội ngũ làm việc hạnh phúc hơn.</h4>
   </div>
 
