@@ -266,7 +266,7 @@ const solutionsData = {
         {
           title: "Cảnh báo và hỗ trợ kịp thời",
           description: "Phát hiện sớm các điểm chậm tiến độ hoặc chưa hoàn thành để chủ động can thiệp",
-          image: etcLogo,
+          image: employee3,
         },
       ],
     },
@@ -350,7 +350,7 @@ const solutionsData = {
         {
           title: "Phân phối nội dung theo quy định",
           description: "Tự động triển khai các chương trình đào tạo bắt buộc theo chính sách và quy định.",
-          image: etcLogo,
+          image: employee1,
         },
         {
           title: "Kiểm soát hoàn thành bắt buộc",
@@ -451,17 +451,17 @@ const solutionsData = {
         {
           title: "Đào tạo theo tình huống thực tế",
           description: "Xây dựng nội dung gắn với các kịch bản bán hàng cụ thể.",
-          image: etcLogo,
+          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Interface-01-Small.webp",
         },
         {
           title: "Theo dõi năng lực đội ngũ sales",
           description: "Đánh giá mức độ hiểu sản phẩm và kỹ năng bán hàng của từng cá nhân.",
-          image: etcLogo,
+          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Customization-02-Small.webp",
         },
         {
           title: "Tối ưu hiệu quả bán hàng",
           description: "Liên kết dữ liệu đào tạo với kết quả kinh doanh để cải thiện hiệu suất.",
-          image: etcLogo,
+          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Permission-01-Large.webp",
         },
       ],
     },
@@ -712,12 +712,12 @@ const solutionsData = {
         {
           title: "Theo dõi hoạt động học tập",
           description: "Ghi nhận đầy đủ hành vi và tiến độ học của người dùng.",
-          image: etcLogo,
+          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Branches-01-Large.webp",
         },
         {
           title: "Tối ưu trải nghiệm học online",
           description: "Cung cấp giao diện thân thiện, dễ sử dụng để tăng mức độ tham gia.",
-          image: etcLogo,
+          image: onboarding2,
         },
       ],
     },

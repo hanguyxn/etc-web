@@ -30,7 +30,7 @@
               <a
                 href="/giai-phap"
                 class="text-[#475569] hover:text-blue-600 transition-colors"
-                style="font-weight: 500; margin-right: 20px"
+                style="font-weight: 700; margin-right: 20px"
               >
                 Giải pháp
               </a>
@@ -39,7 +39,7 @@
               <a
                 href="/bai-viet"
                 class="text-[#475569] hover:text-blue-600 transition-colors"
-                style="font-weight: 500; margin-right: 20px"
+                style="font-weight: 700; margin-right: 20px"
               >
                 Bài viết
               </a>
@@ -58,7 +58,19 @@
         </div>
 
         <div class="hidden lg:block">
-          <div class="flex items-center space-x-4" bis_skin_checked="1"><a class="hidden md:inline-block bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2 px-5 rounded-lg transition-colors" href="/#">Đăng nhập</a><a class="bg-[#0a80e8] hover:bg-[#086ac7] text-white font-semibold py-2 px-5 rounded-lg transition-colors" href="/#">Yêu cầu Demo</a></div>        </div>
+          <div class="flex items-center space-x-4" bis_skin_checked="1">
+            <a 
+              class="hidden md:inline-block bg-gray-200 text-gray-400 font-semibold py-2 px-5 rounded-lg opacity-50 cursor-not-allowed pointer-events-none select-none" 
+              href="#" 
+              title="Tính năng đang bảo trì"
+            >
+              Đăng nhập
+            </a>
+            <a class="bg-[#0a80e8] hover:bg-[#086ac7] text-white font-semibold py-2 px-5 rounded-lg transition-colors" href="/#">
+            Yêu cầu Demo
+            </a>
+          </div>        
+        </div>
 
       </div>
     </div>
