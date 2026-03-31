@@ -58,6 +58,6 @@ defineProps({
 }
 
 .feature-img {
-  @apply rounded-lg mt-auto;
+  @apply rounded-lg mt-auto w-full max-h-[350px] object-contain object-bottom;
 }
 </style>

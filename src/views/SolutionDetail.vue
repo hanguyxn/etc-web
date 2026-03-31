@@ -33,7 +33,25 @@ import Training from "@/views/pages/solution/detail/training.vue";
 import GetLms from "@/views/pages/solution/sections/GetLms.vue";
 import userDashboardImage from "@/assets/images/adminview.png";
 import dashboardImage from "@/assets/images/dashboard_cms.png";
-import employee1 from "@/assets/images/employee1.png";
+import etcLogo from "@/assets/images/etcLogo.png";
+import employee1 from "@/assets/images/employee-1.png";
+import employee2 from "@/assets/images/employee-2.png";
+import employee3 from "@/assets/images/employee-3.png";
+import employee4 from "@/assets/images/employee-4.png";
+import onboarding1 from "@/assets/images/onboarding-1.png";
+import onboarding2 from "@/assets/images/onboarding-2.png";
+import onboarding3 from "@/assets/images/onboarding-3.png";
+import compliance2 from "@/assets/images/compliance-2.png";
+import compliance3 from "@/assets/images/compliance-3.png";
+import compliance4 from "@/assets/images/compliance-4.png";
+import sales1 from "@/assets/images/sales-1.png";
+import remote1 from "@/assets/images/remote-1.png";
+import remote2 from "@/assets/images/remote-2.png";
+
+
+
+
+
 const route = useRoute();
 const router = useRouter();
 const solution = ref(null);
@@ -134,24 +152,24 @@ const solutionsData = {
       title: "Số hóa và tự động hóa toàn bộ hoạt động đào tạo.",
       features: [
         {
-          title: "Tự động hóa hành trình onboarding",
-          description: "Hệ thống tự động phân bổ nội dung theo timeline hội nhập, giúp nhân sự mới tiếp cận đúng thông tin theo từng giai đoạn.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-course-creation-02-Large.webp",
+          title: "Quản lý chương trình đào tạo tập trung",
+          description: "Tổ chức và vận hành toàn bộ chương trình đào tạo trên một nền tảng thống nhất",
+          image: employee1,
         },
         {
-          title: "Thiết lập lộ trình theo vai trò",
-          description: "Xây dựng các chương trình onboarding riêng cho từng vị trí, đảm bảo học đúng nội dung cần thiết cho công việc.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Learning-path-01-Large.webp",
+          title: "Cá nhân hóa lộ trình học tập",
+          description: "Phân bổ nội dung dựa trên vai trò, năng lực và định hướng phát triển của từng nhân viên",
+          image: employee2,
         },
         {
-          title: "Theo dõi tiến độ theo thời gian thực",
-          description: "Quản lý có thể nắm bắt ngay tình trạng học tập và mức độ hoàn thành của từng nhân sự.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Customizable-platform-01-Large.webp",
+          title: "Theo dõi và đo lường hiệu quả",
+          description: "Ghi nhận tiến độ, kết quả học tập và mức độ hoàn thành theo từng cá nhân và phòng ban",
+          image: employee3,
         },
         {
-          title: "Cảnh báo và hỗ trợ kịp thời",
-          description: "Phát hiện sớm các điểm chậm tiến độ hoặc chưa hoàn thành để chủ động can thiệp.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Custom-reports-01-Large.webp",
+          title: "Liên kết với hiệu suất công việc",
+          description: "Kết nối dữ liệu đào tạo với đánh giá năng lực và hiệu quả làm việc",
+          image: employee4,
         },
       ],
     },
@@ -228,27 +246,27 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Bảo vệ tổ chức. Đơn giản hóa tuân thủ. Luôn sẵn sàng.",
+      title: "Vận hành onboarding trên nền tảng hệ thống và dữ liệu.",
       features: [
         {
-          title: "Quản lý chương trình đào tạo tập trung",
-          description: "Tổ chức và vận hành toàn bộ chương trình đào tạo trên một nền tảng thống nhất.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Notification-01-Large.webp",
+          title: "Tự động hóa hành trình onboarding",
+          description: "Hệ thống tự động phân bổ nội dung theo timeline hội nhập, giúp nhân sự mới tiếp cận đúng thông tin theo từng giai đoạn – Tạo lộ trình",
+          image: onboarding1,
         },
         {
-          title: "Cá nhân hóa lộ trình học tập",
-          description: "Phân bổ nội dung dựa trên vai trò, năng lực và định hướng phát triển của từng nhân viên.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Report-03-Small.webp",
+          title: "Thiết lập lộ trình theo vai trò",
+          description: "Xây dựng các chương trình onboarding riêng cho từng vị trí, đảm bảo học đúng nội dung cần thiết cho công việc – Kỹ năng",
+          image: onboarding2,
         },
         {
-          title: "Theo dõi và đo lường hiệu quả",
-          description: "Ghi nhận tiến độ, kết quả học tập và mức độ hoàn thành theo từng cá nhân và phòng ban.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Test-01-Small.webp",
+          title: "Theo dõi tiến độ theo thời gian thực",
+          description: "Quản lý có thể nắm bắt ngay tình trạng học tập và mức độ hoàn thành của từng nhân sự – Báo cáo khóa học => Nội dung + Chi tiết 1 nhân sự (Danh sách hv)",
+          image: onboarding3,
         },
         {
-          title: "Liên kết với hiệu suất công việc",
-          description: "Liên kết dữ liệu đào tạo với kết quả kinh doanh để cải thiện hiệu suất.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Certificate-01-Large.webp",
+          title: "Cảnh báo và hỗ trợ kịp thời",
+          description: "Phát hiện sớm các điểm chậm tiến độ hoặc chưa hoàn thành để chủ động can thiệp",
+          image: etcLogo,
         },
       ],
     },
@@ -327,27 +345,27 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Đội ngũ bán hàng mạnh hơn. Doanh thu cao hơn. Kết quả thực tế.",
+      title: "Tự động hóa và kiểm soát toàn bộ quy trình tuân thủ",
       features: [
         {
           title: "Phân phối nội dung theo quy định",
           description: "Tự động triển khai các chương trình đào tạo bắt buộc theo chính sách và quy định.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-course-creation-01-Large.webp",
+          image: etcLogo,
         },
         {
           title: "Kiểm soát hoàn thành bắt buộc",
           description: "Theo dõi chính xác ai đã hoàn thành, ai chưa để đảm bảo tuân thủ đầy đủ.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Report-03-Small.webp",
+          image: compliance2,
         },
         {
           title: "Tự động nhắc nhở và gia hạn",
           description: "Gửi thông báo định kỳ cho các khóa cần hoàn thành hoặc tái đào tạo.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Test-01-Small.webp",
+          image: compliance3,
         },
         {
           title: "Lưu trữ hồ sơ đào tạo",
-          description: "Ghi nhận và lưu trữ lịch sử đào tạo phục vụ kiểm tra và audit.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-coach-01-Large.webp",
+          description: "Ghi nhận và lưu trữ lịch sử đào tạo phục vụ kiểm tra và audit - Báo cáo nhân sự",
+          image: compliance4,
         },
       ],
     },
@@ -423,27 +441,27 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Dịch vụ xuất sắc hơn. Khách hàng hài lòng hơn.",
+      title: "Trang bị và tối ưu năng lực đội ngũ bằng hệ thống và dữ liệu",
       features: [
         {
           title: "Cập nhật kiến thức sản phẩm liên tục",
           description: "Triển khai nhanh nội dung về sản phẩm, thị trường và chiến lược bán hàng.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-course-creation-01-Large.webp",
+          image: sales1,
         },
         {
           title: "Đào tạo theo tình huống thực tế",
           description: "Xây dựng nội dung gắn với các kịch bản bán hàng cụ thể.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Learning-path-and-Skills-02-Small.webp",
+          image: etcLogo,
         },
         {
           title: "Theo dõi năng lực đội ngũ sales",
           description: "Đánh giá mức độ hiểu sản phẩm và kỹ năng bán hàng của từng cá nhân.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-translation-01-Small.webp",
+          image: etcLogo,
         },
         {
           title: "Tối ưu hiệu quả bán hàng",
           description: "Liên kết dữ liệu đào tạo với kết quả kinh doanh để cải thiện hiệu suất.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-coach-01-Large.webp",
+          image: etcLogo,
         },
       ],
     },
@@ -502,7 +520,7 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Khách hàng thành công hơn. Doanh nghiệp phát triển hơn.",
+      title: "Xây dựng hệ thống học tập tự phục vụ dựa trên dữ liệu sử dụng",
       features: [
         {
           title: "Xây dựng thư viện học tập cho khách hàng",
@@ -600,7 +618,7 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Đối tác mạnh hơn. Mạng lưới rộng hơn. Doanh thu cao hơn.",
+      title: "Quản lý và phát triển năng lực đối tác bằng nền tảng dữ liệu",
       features: [
         {
           title: "Phân phối nội dung cho hệ sinh thái đối tác",
@@ -679,27 +697,27 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Làm việc từ xa hiệu quả hơn. Gắn kết hơn. Không giới hạn.",
+      title: "Vận hành học tập online hiệu quả với nền tảng số hóa và dữ liệu",
       features: [
         {
           title: "Truy cập mọi lúc mọi nơi",
           description: "Cho phép học tập trên nhiều thiết bị mà không phụ thuộc địa điểm.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/AI-coach-01-Large.webp",
+          image: remote1,
         },
         {
           title: "Đồng bộ nội dung đa nền tảng",
           description: "Đảm bảo trải nghiệm học tập nhất quán trên web và mobile.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Videoconferencing-02-Small.webp",
+          image: remote2,
         },
         {
           title: "Theo dõi hoạt động học tập",
           description: "Ghi nhận đầy đủ hành vi và tiến độ học của người dùng.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Report-03-Small-1.webp",
+          image: etcLogo,
         },
         {
           title: "Tối ưu trải nghiệm học online",
           description: "Cung cấp giao diện thân thiện, dễ sử dụng để tăng mức độ tham gia.",
-          image: "https://www.talentlms.com/wp-content/uploads/2025/07/Discussions-01-Large.webp",
+          image: etcLogo,
         },
       ],
     },
@@ -770,7 +788,7 @@ const solutionsData = {
       },
     ],
     transform: {
-      title: "Mở rộng quy mô. Đồng bộ thương hiệu. Tăng trưởng toàn cầu.",
+      title: "Quản lý đào tạo đa tổ chức trên một nền tảng thống nhất",
       features: [
         {
           title: "Quản lý đào tạo đa tổ chức",
